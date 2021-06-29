@@ -1,0 +1,41 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-09T11:01:06+01:00
+
+====== Systemy operacyjne microsoft ======
+Created piątek 09 marzec 2018
+
+Podstawą pierwszego systemu microsoft byl kod zrodlowy systemu QDOS i powstal system DOS.
+
+dir - wylistownie katalogu
+edit [dokument] - edycja tekstu (edit [.txt] - tworzy plik)
+cd - zmien katalog
+.. - poziom do góry
+
+== W systemie MS - DOS ==
+[ ] a i b - litery zarezerwowane dla stacji dyskietek
+[ ] c - z litery zarezerwowane dla dysku
+ \ -katalog głowny dos ( / linux)
+
+Scieżka wzgledna - sposob dotarcia do miejsca, z ktorego sie znajdujemy (cd tmp) **(cd plik)**
+Scieżka bezwzgledna - podawana od katalogu głownego do miejsca do ktorego chcemy sie dostac (cd C:\tmp)
+**(cd /home/user/plik)**
+
+W DOSIE 8(naglowek) + 3(rozszerzenie)
+W Win dopuszczalne 4 a nawet 5.
+
+.exe / .com plik ktory mozemu uruchomic
+
+=== Atrybuty: ===
+**b** (archive) - kazdy plik zapisany na dysku
+**r** - tylko do odczytu
+**h** (hiden) - ukryty
+**s** (system) - systemowy
+
+**DoS** obsługiwal jednynie 640KB pamieci, nie mozna bylo zaladowac pliku +64KB
+Dos wykorzystywal tryb rzeczywisty procesora
+
+==== Interface graficzny: ====
+
+== - okienka: ==
+pasek tytułu, menu, przyciski min/max, exit, ikony

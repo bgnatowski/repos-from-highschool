@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-09-22T11:37:36+02:00
+
+====== Biblioteki ======
+Created piątek 22 wrzesień 2017
+
+**#include <math.h>** 
+sqrt(zmienna)
+M_PI - pi

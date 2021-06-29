@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1537357429 source:e:\kody\cpp_obiect_dom\codeblock\wydarzenia\event.cpp
+	<iostream>
+	"event.h"
+
+1537357468 e:\kody\cpp_obiect_dom\codeblock\wydarzenia\event.h
+	<iostream>
+
+1537357347 source:e:\kody\cpp_obiect_dom\codeblock\wydarzenia\main.cpp
+	<iostream>
+	"event.h"
+

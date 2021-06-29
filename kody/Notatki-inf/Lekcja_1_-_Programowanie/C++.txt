@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-09-05T13:25:58+02:00
+
+====== C++ ======
+Created wtorek 05 wrzesień 2017
+
+Kompilator – program służący do automatycznego tłumaczenia kodu 
+
+Typy
+char - pojedynczy znak
+
+Biblioteki:
+
+

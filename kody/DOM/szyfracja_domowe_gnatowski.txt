@@ -1,0 +1,10 @@
+1) cezar:
+szyfrogram: Gfwytxe Lsfytbxpn zwtietsd 57.66.7555 wtpz b Xfsitrnjwez //kropkek nie szyfruje
+klucz: 5;
+2) przestawieniowy:
+szyfrogram: BoGoion2.0k deasnw dy.2 uSorrzasuz 10r amzt tkro010owniu
+klucz: 7;
+3) vigenere:
+szyfrogram: IAJXZCN NNSXZGGRI MVZNNVNQ 02.11.2000 VZUI D SSROYAPEJDF //z data w formacie liczbowym
+szyfrogram: IAJXZCN NNSXZGGRI MVZNNVNQ HCEUPEYS WSGAOHEOK RDULCDSSJZFIRY FVKM A DKBKOEMPBNB //z data w formie pisemnej
+klucz: haselko;

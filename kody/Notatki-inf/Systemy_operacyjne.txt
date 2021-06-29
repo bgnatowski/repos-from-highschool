@@ -1,0 +1,32 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-06T12:54:49+01:00
+
+====== Systemy operacyjne ======
+Created wtorek 06 marzec 2018
+
+==== Otwarty system operacyjny(uniwerslny, np. Linux) ====
+Debian jeden z najstarszych dystrubucji Linuxa.
+
+AMD64 - architektura 64 bitowa.
+I386 - archutektura 32 bitowa
+ARM - architektura 32 i 64 bitowa przeznaczona dla urzadzen 
+
+[[OpenSource]] - otwarty kod zrodlowy programu.
+
+Hardware - sprzet komputerowy
+Softwere - oprogramowanie				→ system operacyjny laczy te 3 rzeczy
+User - użytkownik
+
+== Składniki systemu operacyjnego ==
+a)  **JĄDRO** - warstwa sterujaca bezposrednio na sprzecie, pierwsze sie laduje i wykonuje, wczytuje sterowniki. Robi to w formie wirtualnej.
+b)  **Steowniki urzadzen zewnetrzynch** 
+
+== Funkcje ==
+a) wirtualizuje sprzet
+b) umozliwia zarzadzanie zasobami sprzetu dla wielu uzytkownikow(wczesniej 1)
+
+Zwykly uzytkownik kojarzy z interfacem.
+1) interface teksotwy (udostepniany w formie terminala)
+2) interface graficzny
+3) interface kafelkowy

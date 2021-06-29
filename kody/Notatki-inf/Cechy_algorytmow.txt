@@ -1,0 +1,26 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-12T11:07:44+01:00
+
+====== Cechy algorytmow ======
+Created piątek 12 styczeń 2018
+
+Specyfikacja problemu - cel dzialania algorytmu, danych wejsciowych(początkowcych).
+
+====== Wlasności ======
+
+1. Poprawność (algorytm moze byc częściowo poprawny, jesli dla obliczeń, ktore się skonczą, ich wyniki są poprawne wzgledem warunkow poczatkowych i końcowych)
+2. Skończoność(dla kazdego poprawnego typu danych powinien sie zakonczyc)
+3. Złożoność(czasowa,pamieciowa)
+4. Efektywność
+
+Wnioskowanie indukcyjne jest metodą dowodzenia czegoś, wyprowadzania wniosków. Poprzez serie testów**(w celu uogólnienia wyniku)**.
+Dedukcja postępuje odwrotnie. Jest prawo ogólne i nim probujemy wytlumaczyc przypadki szczegółowe, **(od ogółu do szczegółu!).**
+Należy uważać na **błedy logiczne!**
+
+Ad 3.
+Złożoność czasowa: O(n^2), O(n), O(logn)
+Złożoność pamieciowa - ile pamieci potrzebuje komputer do wykonania algorytmu
+
+Ad 4.
+Efektywnosc algortymu zalezy od typu danych.

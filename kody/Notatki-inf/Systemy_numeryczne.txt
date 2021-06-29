@@ -1,0 +1,76 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-17T11:58:40+01:00
+
+====== Systemy numeryczne ======
+Created środa 17 styczeń 2018
+
+===== 1) Systemy addytywne =====
+System liczbowy rzymski:
+
+1 => I
+2 => II
+3 => III
+4 => IV
+5 => V
+10 => X
+50 => L
+100 => C
+500 => D
+1000 => M
+
+===== 2) Systemy pozycyjne =====
+
+=== System o podstawie 10 ===
+123(10) = a(n-1)*p^(n-1) + a(n-2)*p^(n-2)*+...+a1*p^1+a0*p^0;
+123(10) = 1*10^2 + 2*10^1 + 3*10^0 = 123
+
+234(6) = 2*6^2 + 3*6^1 + 4*6^0 = 246 = 72 + 18 + 4 = 94
+//234(4) cyfra w podstawie nie moze byc taka jak licba
+234(5) = 2*5^2 + 3*5^1 + 4*5^0 = 50 + 15 + 4 = 69
+
+=== System o podstawie 2 ===
+Potegi liczby 2: 
+1,2,4,8,16,32,64, 128
+
+128,64,32,16,8,4,2,1
+
+1111 = 8 + 4 + 2 + 1 = 15
+1001 = 1 + 0 + 0 + 8 = 9
+1001 0011 = 1 + 2 + 0 + 0 + 16 + 0 + 0 + 128 = 147  
+
+8bit = krotkie slowo(1bajt) (SHORT WORD), max 255(10)
+16bit = slowo (2bajty) (WORD)
+32bit = długie słowo (4 bajty) (DUBLE WORD)
+64bit = poczworne(8 bajtow)
+
+=== System o podstawie 8 ===
+0,1,2,3,4,5,6,7
+
+644_{8} = 6*8*2 + 4*8^1 + 4 *8^0 = 6*64 + 32 + 4 = 420
+
+=== Systen o podstawie 16 ===
+0-9, A, B, C, D, E, F
+11111111_{2 }= 255_{10} = FF_{16}
+
+000000 
+FF = 255
+
+===== KONWERSJA LICZBY DZIESIETNEJ: =====
+
+== dec2bin (10)->(2) ==
+
+dec2bin 129_{(10)} -> 1000 0001_{(2)}
+129 / 2 = 64 mod 1
+64 / 2 = 32 mod 0
+32 / 2 = 16 mod 0
+16 / 2 = 8 mod 0
+8 / 2 = 4 mod 0
+4 / 2 = 2 mod 0
+2/2 = 1 mod 0
+1/2 = 0 mod  1
+
+174_{(10)} - 256_{(8)}
+174/8 = 21 mod 6
+21/8 = 2 mod 5
+2/8 = 0 mod 2

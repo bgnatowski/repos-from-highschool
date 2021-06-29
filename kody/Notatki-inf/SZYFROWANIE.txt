@@ -1,0 +1,49 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-02-06T12:58:57+01:00
+
+====== SZYFROWANIE ======
+Created wtorek 06 luty 2018
+
+Szyfrowanie polega na ukryciu danych, czyli **TEKSTU JAWNEGO**(kryptografia).
+Otrzymujemy w ten sposób **SZYFROGRAM.**
+Odczytanie ukrytej informacji to **deszyfracja** (kryptoanaliza).
+
+Do odszyfrowania szyfrogramu potrzebny jest:
+**algorytm szyfrowania** oraz **klucz**.
+
+====== Rodzaje szyfrów ======
+
+==== Podstawieniowe ====
+Szyfr Cezara
+Szyfr Vigenère’a
+
+== Przestawieniowe ==
+Zapkis tekstu w wierszach o ustalonej długości.
+
+Klucz to ilość kolumn, na które dzielimy tekst.
+
+TOBEORNOTTOBETHATISTHEQUESTIONAND
+
+TOBEORNOTT
+OBETHATIST
+HEQUESTION
+AND.......
+
+TOHA OBEN BEQD ETU. OHE. RAS. NTT. OII. TSO. TTN.
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+VCBIU FHCDUD MHVW SURVWB
+
+SZYFR CEZARA JEST PROSTY
+
+== Asymetryczne ==
+- wczytywanie stron internetowych
+- protokuł **https, ssl, tls**
+- tożsamość serwera to **certifikat**
+
+**Preety Good Privacy (PGP) -** narzedzie do szyfrowania poczty elektornicznej
+
+**Klucz publiczny** - ciag cyfr ktory podajemy do publicznych wiadmosci
+**Algorytm RSA**
+**SSH**

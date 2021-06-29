@@ -1,0 +1,23 @@
+{% extends "szablon.html" %}
+{% block tytul %}Dodaj Pytania{% endblock %}
+{% block h1 %}<span class="r_word">D</span>odaj <span class="r_word">W</span>łasne <span class="r_word">P</span>ytanie!{% endblock %}
+{% block tresc%}
+	<form method="POST" action="">
+	{{ form.csrf_token }}
+
+	{{ form.pytanie.label }}<br>
+	{{ form.pytanie }}<br>
+	<br>
+	{{ form.kategoria.label }}<br>
+	{{ form.kategoria }}<br>
+	<br>
+	<label><span class="r_word">P</span>odaj odpwiedzi i <span class="r_word">z</span>aznacz poprawna</label>
+	<ol>
+	{% for o in form.odpowiedzi %}
+		<li>{{ o }}</li>
+	{% endfor %}
+	</ol>
+
+	<p id="save_button"><input id="save_button" type="submit" value="Zapisz"></p>
+	</form>
+{% endblock %}

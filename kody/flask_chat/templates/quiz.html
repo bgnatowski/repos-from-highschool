@@ -1,0 +1,23 @@
+{% extends "szablon.html" %}
+{% block tytul %}Quiz – Pytania{% endblock %}
+{% block h1 %}<span class="r_word">R</span>ozwiąż <span class="r_word">P</span>o <span class="r_word">N</span>agrodę{% endblock %}
+{% block tresc%}
+	<form method="POST">
+	{% for p in query %}
+	<p>
+		<!-- wypisujemy id i treść pytania -->
+		<span class="r_word">{{ p.id }}</span> {{ p.pytanie }}
+		<br>
+		{% for o in p.odpowiedzi %}
+		  <label id="label_odp">
+			<input type="radio" value="{{ o.id }}" name="{{ p.id }}">
+			  {{ o.odpowiedz }}
+		  </label>
+		{% endfor %}
+		<br>
+	</p>
+	{% endfor %}
+
+	<p id="save_button"><input id="save_button" type="submit" value="Zapisz"></p>
+  </form>
+{% endblock %}

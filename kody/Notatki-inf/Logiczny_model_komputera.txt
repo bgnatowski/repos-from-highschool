@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-02T11:07:15+01:00
+
+====== Logiczny model komputera ======
+Created piątek 02 marzec 2018
+
+== Napiecie od 3V do 5V - logiczne 1 ==
+
+== Napiecie około 0.2V - logiczne 0 ==
+
+==== Architektura von Neumanna ====
+
+**Pierwszym skladnikiem** archutektury logicznej komputera jest procesor - jednostka arytmetyczno-logiczna
+
+Procesor sklada sie z rejestrów(komórki, w których zpisywanie są różne dane)
+Rozmiary rejestrów współczesnego procesora to 64 bity.
+
+**Drugi skladnik:** pamiec RAM(swobodnego dostepu)
+
+**Trzeci skladnik:** jednostka sterująca - synchronizuje prace logicznych modułów komputera za pomoca szyny systemowej komunikuje sie z pamiecia i procesorem(daje podstawowe taktowanie)
+
+Obok szyny systemowej mamy szyne danych(przesylanie danych w odpowiedniej czestotliwosci)
+Szyna adresowa(gdzie trafiaja te dane, do konkretnych miejsc i odczytywane sa poprawnie)
+
+ROM w porównaniu do RAMu przechowuje dane na stałe. Znajduje sie w nim zazwyczaj BIOS.
+
+**Unified Extensible Firmware Interface (UEFI)** – interfejs pomiędzy systemem operacyjnym a firmware, opracowywany jako następca BIOS-u w komputerach osobistych.
+
+**Czwarty skladnik: **urządzenia wejscia/wyjscia.

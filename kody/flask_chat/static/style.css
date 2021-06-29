@@ -1,0 +1,169 @@
+/*quiz/static/style.css*/
+body
+{
+  margin: 0 !important;
+  /*background: url(static/prism.png);  */
+  /*from https://www.toptal.com/designers/subtlepatterns/*/
+  background-color: #303030;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+#menu_glowne
+{
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  background-color: #535353;
+  padding: 10px 0;
+  border-top: 1px solid #f44e42;
+  border-bottom: 1px solid #f44e42;
+}
+#menu li
+{
+  width: 200px;
+  height: 40px;
+  display: inline;
+  padding: 10px;
+  border-right: 2px dashed #333333;
+}
+#menu li:hover
+{
+  background: #747474;
+}
+#menu li:first-child
+{
+  border-left: 2px dashed #333333;
+}
+#menu li:nth-child(4)
+{
+  margin-left: -5px;
+}
+#save_button
+{
+  text-align: center;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+
+}
+#p_lista
+{
+  line-height: 1.5;
+}
+#footer
+{
+  font-size: 20px;
+  text-align: center;
+  background-color: #747474;
+  padding: 20px;
+  position: static;
+  bottom: 0;
+  width: 100%;
+}
+#komunikaty
+{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 30%;
+  border: 2px solid #f44e42;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 23px;
+  background: #535353;
+}
+#pytanie
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#label_odp
+{
+  display: inline-block;
+}
+.r_word
+{
+  color: red;
+}
+span.blad
+{
+  color: red;
+}
+span.sukces
+{
+  color: green;
+}
+span.kom
+{
+  color: blue;
+}
+.form-control
+{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+a
+{
+  text-decoration: none;
+  color: #fDfDfD;
+  font-size: 25px;
+}
+a:hover
+{
+  color: red;
+}
+h1
+{
+  text-align: center;
+}
+p
+{
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+label
+{
+  display: block;
+  text-align: center;
+ /* margin-left: auto;
+  margin-right: auto;*/
+}
+select
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+form>ol
+{
+  text-align: center;
+}
+li
+{
+  display: inline-block;
+  text-align: center;
+}
+table
+{
+  margin-left: auto;
+  margin-right: auto;
+}

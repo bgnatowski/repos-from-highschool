@@ -1,0 +1,65 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-31T12:13:14+01:00
+
+====== Kompresja ======
+Created środa 31 styczeń 2018
+
+Unicod – komputerowy zestaw znaków mający w zamierzeniu obejmować wszystkie pisma używane na świecie. Definiują go dwa standardy – Unicode oraz ISO 10646. Znaki obu standardów są identyczne. Standardy te różnią się w drobnych kwestiach, m.in. Unicode określa sposób składu.
+
+UTF-8 – system kodowania Unicode, wykorzystujący od 1 do 6 bajtów do zakodowania pojedynczego znaku, w pełni kompatybilny z ASCII. Jest najczęściej wykorzystywany do przechowywania napisów w plikach i komunikacji sieciowej.
+
+Pierwszy sposob kompresji słow: Kod Morse'a
+
+SOS: 000111000 ***** - - - ***** 
+
+== KOMPRESJA BEZSTRATNA ==
+
+== test zapisany (.zim, .rar, .7z, .zip, .pptx) ==
+
+== formaty graficzne(.bmp, .png) ==
+
+== audio (.FLAC, .LPAC, .RKAU ) ==
+
+
+Archiwum – plik otrzymywany w procesie archiwizacji (często łączonej z kompresją) danych. Archiwa przygotowywane są przez programy archiwizujące. Celem archiwizacji jest umieszczenie wybranych plików w jednym, dużym pliku, zwanym archiwum. Obecnie, bardzo często łączy się archiwizowanie z kompresją, co powoduje także otrzymanie mniejszego rozmiaru archiwum wyjściowego, w porównaniu z sumą rozmiarów plików wejściowych.
+
+== KOMPRESJA STRATNA np. multimedia (.jpeg, .jpg) ==
+
+== audio (.mp3, .mpeg, .aac, .wav) ==
+
+== Formaty wideo: ==
+matroska (.mkv)
+.mp4
+.dvi
+.avi
+
+==== Bitrate (przepływność) ====
+Ilość bitów na sekunde(danych/s)
+mp3 - 128bit/s
+cd - 256bit/s
+
+kilobit - Kb
+megabit Mb
+magabajt MB
+kilobajt KB
+
+==== ASCII ====
+
+NULL [[/0]]
+Line Feed (koniec linii/UNIX/WINDOWS) [[/10]]
+Carriage Return (TYLKO WINDOWS) [[/13]]
+
+KOD MORSA - przyklad algorytmu statystycznego
+
+<od pierwszego do ostatniego wystapienia(poczatek), ilosc znakow powtarzajacych sie>
+The rain in Spain falls mainly on the plain. ⇒ 44 znaki
+The rain __<3, 3>__Sp__<9,4>__falls m__<11, 3>__ly on t__<34,3>__pl__<15,3>__. ⇒ 33
+
+Rc = 33 / 44 * 100 = 75r%
+
+Rc = Vk / Vnk * 100 (wspolczynnik kompresji = skompresowane / nieskompresowane)
+
+ile znakow  ⇒ 6 bitow
+długość ciągu ⇒ 2 bity
+

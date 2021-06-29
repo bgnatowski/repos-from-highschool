@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-09-05T13:26:22+02:00
+
+====== Phyton ======
+Created wtorek 05 wrzesień 2017
+
+Interpreter - program komputerowy, który analizuje kod źródłowy programu, a przeanalizowane fragmenty wykonuje.

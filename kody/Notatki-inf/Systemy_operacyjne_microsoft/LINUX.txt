@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-13T12:57:58+01:00
+
+====== LINUX ======
+Created wtorek 13 marzec 2018
+Rufus - programik do wypalania pena
+
+Linux - jadro
+
+System własnościowy i zajęty: MS Windows, macOS
+Linux jest otwartym systemem (OpenSource)
+
+Dystrybucja Linuxa sklada sie z **jądra i oprogramowania dodatkowego.**

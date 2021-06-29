@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1395681366 source:e:\kody\cpp_obiect_dom\obiektowy_cpp_odc3\event.cpp
+	<iostream>
+	"event.h"
+
+1395681550 e:\kody\cpp_obiect_dom\obiektowy_cpp_odc3\event.h
+	<iostream>
+
+1395681720 source:e:\kody\cpp_obiect_dom\obiektowy_cpp_odc3\main.cpp
+	<iostream>
+	"event.h"
+

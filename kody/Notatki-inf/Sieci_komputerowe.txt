@@ -1,0 +1,95 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-20T12:54:52+01:00
+
+====== Sieci komputerowe ======
+Created wtorek 20 marzec 2018
+
+==== Host ====
+Host – dowolna maszyna (komputer, karta sieciowa, modem itp.) uczestnicząca w wymianie danych lub udostępniająca usługi sieciowe poprzez sieć komputerową za pomocą protokołu komunikacyjnego TCP/IP oraz posiadająca własny adres IP.
+
+== Serwer ==
+Jest to strona świadcząca usługę lub udostępniająca zasoby.
+
+== Klient ==
+Jest to strona żądająca dostępu do danej usługi lub zasobu.
+
+== LAN ==
+Lokalna sieć komputerowa, LAN (od ang. local area network) – sieć komputerowa łącząca komputery na określonym obszarze (blok, szkoła, laboratorium, biuro). Sieć LAN może być wydzielona zarówno fizycznie, jak i logicznie w ramach innej sieci. Główne różnice LAN, w porównaniu z WAN, to wyższy wskaźnik transferu danych i mniejszy obszar geograficzny.
+
+== WAN ==
+Sieć WAN (z ang. Wide Area Network, rozległa sieć komputerowa) – sieć komputerowa znajdująca się na obszarze wykraczającym poza miasto, kraj, kontynent.
+
+**Skętka zakonczona RJ-45 - kabel**
+
+== SWITCH ==
+Przełacznik sieciowy
+
+=== Topologia gwiazdy ===
+**Topologia gwiazdy** (ang. star network) – sposób połączenia komputerów w sieci komputerowej, charakteryzujący się tym, że kable sieciowe połączone są w jednym wspólnym punkcie, zwanym punktem dostępu (ang. access point), w którym znajduje się koncentrator lub przełącznik.
+
+== ROUTER (ma dwa interfejsy zew i wewn) ==
+Router (po polsku – trasownik, IPA: /'rutɛr/) – urządzenie sieciowe pracujące w trzeciej warstwie modelu OSI. Służy do łączenia różnych sieci komputerowych (różnych w sensie informatycznym, czyli np. o różnych klasach, maskach itd.), pełni więc rolę węzła komunikacyjnego. Na podstawie informacji zawartych w pakietach TCP/IP jest w stanie przekazać pakiety z dołączonej do siebie sieci źródłowej do docelowej, rozróżniając ją spośród wielu dołączonych do siebie sieci. Proces kierowania ruchem nosi nazwę trasowania, routingu lub routowania.
+
+Kazdy komputer musi miec adres IP.
+Domyslna trasa - brama(gate) - w praktyce adres routera
+Adres serwera DNS
+
+**Sieć szkieletowa (ang. backbone network)** – sieć telekomunikacyjna, w tym sieć komputerowa, przez którą przesyłana jest największa liczba informacji. Łączy zwykle mniejsze sieci (sieci lokalne), grupy robocze, przełączniki, sieci rozległe. Urządzenia wchodzące w strukturę sieci szkieletowej z reguły odpowiedzialne są za funkcjonowanie całej sieci na określonym obszarze.
+
+**Protokół internetowy, IP (od ang. Internet Protocol)** – protokół komunikacyjny warstwy sieciowej modelu OSI (warstwy internetu w modelu TCP/IP). Protokół internetowy to zbiór ścisłych reguł i kroków postępowania, które są automatycznie wykonywane przez urządzenia w celu nawiązania łączności i wymiany danych. Używany powszechnie w Internecie i lokalnych sieciach komputerowych.
+
+Komutery musza stosowac jezyk protokołowy, aby sie ze soba porozumiewac. (np. HTTPS, FTP, TCP/IP)
+
+Na jednym serwerze moze byc uruchomione wiele usług soieciowych i zeby sie nie pomylily uruchamiane sa na roznych portach.
+
+== Model TCP/IP ==
+– teoretyczny model warstwowej struktury protokołów komunikacyjnych. Model TCP/IP został stworzony w latach 70. XX wieku w DARPA, aby pomóc w tworzeniu odpornych na atak sieci komputerowych. Potem stał się podstawą struktury Internetu.
+
+Protokoły w warstwie aplikacji - Telnet, SSH(komunikacja sieciowa), FTP, SMTP, HTTP,   POP i  IMAP(pocztowe), 
+
+== Domain Name System (DNS) ==
+system serwerów, protokół komunikacyjny oraz usługa obsługująca rozproszoną bazę danych adresów sieciowych. Pozwala na zamianę adresów znanych użytkownikom Internetu na adresy zrozumiałe dla urządzeń tworzących sieć komputerową.
+
+Rozproszona baza danych DNS jest indeksowana nazwami domen, tworzącymi drzewiastą strukturę hierarchiczną. Węzły drzewa DNS posiadają etykiety tekstowe o długości od 1 do 63 znaków: pusta etykieta o zerowej długości zarezerwowana jest dla węzła głównego. Etykiety węzłów oddzielone kropkami czytane w kierunku od węzła do korzenia drzewa tworzą pełną nazwę domenową np. „pl.wikipedia.org.”
+Domena najwyższego poziomu (ang.  Top-Level Domain) – domena internetowa, powyżej której nie istnieją żadne inne domeny w systemie DNS. (najbardziej na prawo, np pl, com)
+Subdomena – adres internetowy, który przynależy do domeny głównej lub domeny wyższego poziomu (np. wp, wikipedia)
+
+== URL ==
+– oznacza ujednolicony format adresowania zasobów (informacji, danych, usług) stosowany w Internecie i w sieciach lokalnych.
+http://www.wikipedia.com/wiki/URL
+|      |                 | 
+|      |                 ścieżka dostępu 
+|      |                 do zasobu     
+|      host (adres serwera)
+protokół
+
+==== TCP ====
+Protokół sterowania transmisją, protokół kontroli transmisji, TCP (od ang. Transmission Control Protocol) – połączeniowy, niezawodny, strumieniowy protokół komunikacyjny stosowany do przesyłania danych między procesami uruchomionymi na różnych maszynach, będący częścią szeroko wykorzystywanego obecnie stosu TCP/IP (korzysta z usług protokołu IP do wysyłania i odbierania danych oraz ich fragmentacji wtedy, gdy jest to konieczne). 
+
+Ma trzy wazne cechy:
+- Jest połaczeniowy! (tworzy połaczenia)
+- Jest niezawodny! 
+- Jest stanowy!
+
+Porty od 0 - 1000 tzn. porty dobrze znane (well known ports)
+
+{{~/Pulpit/Zrzut ekranu z 2018-03-23 11-07-42.png}}
+
+==== UDP ====
+**UDP (ang. User Datagram Protocol – protokół pakietów użytkownika) –** jeden z protokołów internetowych. UDP stosowany jest w warstwie transportowej modelu OSI. Nie gwarantuje dostarczenia datagramu.
+
+Jest to protokół bezpołączeniowy, więc nie ma narzutu na nawiązywanie połączenia i śledzenie sesji (w przeciwieństwie do TCP). Nie ma też mechanizmów kontroli przepływu i retransmisji. Korzyścią płynącą z takiego uproszczenia budowy jest szybsza transmisja danych i brak dodatkowych zadań, którymi musi zajmować się host posługujący się tym protokołem. Z tych względów UDP jest często używany w takich zastosowaniach jak wideokonferencje, strumienie dźwięku w Internecie i gry sieciowe, gdzie dane muszą być przesyłane możliwie szybko, a poprawianiem błędów zajmują się inne warstwy modelu OSI. Przykładem może być VoIP lub protokół DNS.
+
+=== IP ===
+Dziela sie na adresy prywatne i publiczne.
+
+Prywatne zakresy : 
+- 10.0.0.0
+- 172.16.0.0
+- 192.168.0.0
+
+**(192.168.1)**.0 (1-254) -  **adres sieci**
+.255 >> broadcast 
+
+**Network Adress Translation **zamiana adresu prywatnego na publiczne i na odwrot (przez router)

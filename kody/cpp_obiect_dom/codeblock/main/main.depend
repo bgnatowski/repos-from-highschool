@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1537353687 source:e:\kody\cpp_obiect_dom\codeblock\main\main.cpp
+	<iostream>
+	"pytanie.h"
+
+1395001474 source:e:\kody\cpp_obiect_dom\codeblock\main\pytanie.cpp
+	<iostream>
+	"pytanie.h"
+	<fstream>
+	<cstdlib>
+
+1395000784 e:\kody\cpp_obiect_dom\codeblock\main\pytanie.h
+	<iostream>
+
